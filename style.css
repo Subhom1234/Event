@@ -6,7 +6,7 @@ body{
   
   display: flex;
   width: 100% auto;
-  height: 100vh auto;
+  height: 100vh ;
   background-image: url('Adobe_Express_20240321_2146360_1.png');
 background-position: center;
 background-repeat: no-repeat;
@@ -53,7 +53,9 @@ text-align: left;
   
 }
 #right-bottom {
-  margin-left: 43%;
+  
+  margin-left: 63%;
+  margin-right: 4%;
   margin-top: 8vh;
 
 }
