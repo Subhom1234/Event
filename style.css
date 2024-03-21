@@ -315,7 +315,7 @@ text-align: left;
   background-color: transparent;
 }
 #btn3{
-  font-size: 13px;
+  font-size: 10px;
   margin-left: 2%;
   height: 6vh;
   border-radius: 20px;
@@ -324,7 +324,7 @@ text-align: left;
   background-color: #0071E3;
 }
 #btn4{
-    font-size: 13px;
+    font-size: 10px;
   margin-left: 10%;
   height: 6vh;
   border-radius: 20px;
@@ -333,7 +333,7 @@ text-align: left;
   background-color: #0071E3;
 }
 #btn5{
-    font-size: 13px;
+    font-size: 10px;
   margin-left: 10%;
   height: 6vh;
   border-radius: 20px;
@@ -342,7 +342,7 @@ text-align: left;
   background-color: #0071E3;
 }
 #dtxt{
-    font-size: 10px;
+    font-size: 7px;
   font-size: 11px;
   margin-left: 2.5%;
   height: 6vh;
