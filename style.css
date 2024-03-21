@@ -357,7 +357,7 @@ text-align: left;
   margin-top: 4vh;
   margin-left: 2%;
   width: 60% ;
-  height: 22vh;
+  height: 15vh;
   border: none;
   background-image: url('JISCE_Campus (1).jpg');
 background-position: center;
@@ -373,8 +373,9 @@ border-radius: 100px;
 
   margin-left: 1.8%;
   margin-right: 0.1%;
-  width: 20% auto;
-  height: 22vh ;
+  
+  width: 30% auto;
+  height: 15vh ;
   border: none;
 
   background-image: url('1652254364phpDdtLmG.jpeg');
@@ -382,7 +383,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-color: transparent;
 position: center;
-background-size: 95%;
+background-size: 115%;
 text-align: center;
 align-items: center;
 justify-content: center;
