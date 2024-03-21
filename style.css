@@ -7,7 +7,7 @@ body{
   display: flex;
   width: 100% auto;
   height: 100vh auto;
-  background-image: url('JISCE/Dark image/Adobe_Express_20240321_2146360_1.png');
+  background-image: url('Adobe_Express_20240321_2146360_1.png');
 background-position: center;
 background-repeat: no-repeat;
 position: center;
@@ -154,7 +154,7 @@ border-radius: 80px;
   height: 40vh;
   border: none;
   
-  background-image: url('JISCE/Screenshot_2024-03-12-17-07-22-97_99c04817c0de5652397fc8b56c3b3817.jpg');
+  background-image: url('Screenshot_2024-03-12-17-07-22-97_99c04817c0de5652397fc8b56c3b3817.jpg');
 background-position: center;
 background-repeat: no-repeat;
 position: center;
@@ -171,7 +171,7 @@ border-radius: 100px;
   height: 40vh;
   border: none;
 
-  background-image: url('JISCE/images (2) (6).jpeg');
+  background-image: url('images (2) (6).jpeg');
   background-position: center;
   background-repeat: no-repeat;
   position: center;
@@ -366,11 +366,12 @@ border-radius: 100px;
   height: 22vh ;
   border: none;
 
-  background-image: url('JISCE/1652254364phpDdtLmG.jpeg');
+  background-image: url('1652254364phpDdtLmG.jpeg');
 background-position: center;
 background-repeat: no-repeat;
+background-color: transparent;
 position: center;
-background-size: cover;
+background-size: 95%;
 text-align: center;
 align-items: center;
 justify-content: center;
@@ -405,4 +406,5 @@ ul{
 #img3{
   display: none;
 }
-}
+  }
+    
