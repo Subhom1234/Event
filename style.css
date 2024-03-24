@@ -410,3 +410,21 @@ a{
   
 }
        }
+
+ #vid1,button{
+         cursor: pointer;
+       }
+       #vid1,#img1,#img2,button,a,#img3,#notice{
+        
+         transition: transform 0.5s ease-in-out;
+       }
+      button:hover{
+        transform: scale(1.1);
+      }
+      #vid1:hover{
+        transform: scale(1.1);
+      }
+      #notice:hover{
+        transform: scale(1.1);
+      }
+      
