@@ -6,7 +6,7 @@ const msg = document.getElementById("msg")
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
       .then(response => {
-      msg.innerHTML = "Message sent successfully"
+      msg.innerHTML = "Registration successful"
       // Open a new window/tab with a specified URL in the current window/tab
 document.getElementById('cover').style.display='none';
 document.getElementById('link').style.display='block';
