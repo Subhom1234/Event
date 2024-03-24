@@ -8,7 +8,8 @@ const msg = document.getElementById("msg")
       .then(response => {
       msg.innerHTML = "Message sent successfully"
       // Open a new window/tab with a specified URL in the current window/tab
-window.open('2.html', '_self');
+document.getElementById('cover').style.display='none';
+document.getElementById('link').style.display='block';
       
       setTimeout(function(){
       msg.innerHtml = ""
