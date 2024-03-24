@@ -116,3 +116,31 @@ button{
 button:hover{
   transform: scale(1.1);
     }
+    .link{
+      margin-top: 20vh;
+      margin-left: 10%;
+      padding-top: 20vh;
+      padding-bottom: 20vh;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      
+      background-color: transparent;
+      color: #EAFFFF;
+      
+    }
+#link1{
+  background-color: #0071E3;
+  color: #EAFFFF;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+}
+#txt{
+  color: black;
+  margin-bottom: 
+}
+#link{
+  display: none;
+}
