@@ -1,62 +1,359 @@
-<!DOCTYPE html>
-<html>
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Submit Successfully</title>
-  <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database2.0</title>
+       <link rel="icon" href="1707548797050.png" type="image/png">
+
+    <style>
     body{
-      margin: 0px;
-      
-      background-color: #2F2F3530;
-      
-     
-      
+      background-color: black;
+        margin: 0px;
     }
-    .link{
-      margin-top: 20vh;
-      margin-left: 10%;
-      padding-top: 20vh;
-      padding-bottom: 20vh;
-      text-align: center;
+        .hidden {
+            display: none;
+        }
+    </style>
+    <style>
+      
+    #costume2{
+            
+      margin: -4%;
+    
+      width: 103%;
+      height: 105vh;
+      background: url('pexels-alessio-cesario-1906794 (2).jpg');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: cover;
+      display: flex;
       align-items: center;
       justify-content: center;
-      width: 80%;
-      
-      background-color: transparent;
-      color: #EAFFFF;
-      
+      position: ;
+  
     }
-#link1{
-  background-color: #0071E3;
-  color: #EAFFFF;
-  border: none;
-  font-size: 20px;
-  border-radius: 20px;
+
+    #video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    #xyz
+    {
+      width: auto;
+      height: auto;
+      padding: 20px;
+      
+      border-radius: 30px;
+      background: #4A4856B0;
+    }
+    #success#070709{
+  color: #000000;
+  margin-top: -20px;
+
+  display: block;
 }
-#txt{
-  color: black;
-  margin-bottom: 
-}
-    button{
-  cursor: pointer;
-  transition: transform .5s ease-in-out;
-}
-button:hover{
-  transform: scale(1.1);
-}
+
+
+ 
   </style>
-    <link rel="icon" href="1652254364phpDdtLmG.jpeg">
-</head>
+<style>
+    /* Style for the transparent button */
+    .transparent-button {
+      margin: 10px;
+      background-color: white;
+      border: 2px solid #ffffff; /* You can change the border color */
+      color: black; /* You can change the text color */
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+<style>
 
-<body>
-  <div class="link">
+#div1 {
+      background-color: black;
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+  #wrapper {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height:100vh;
+  width:100%;
+  background:url('https://i.pinimg.com/originals/09/05/a7/0905a74092fa43fce6218aa48f6a26a4.jpg') no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-color: #66fcf1;
+  animation:animateBg 4s linear infinite;
+}
+@keyframes animateBg {
+  100% {
+    filter:hue-rotate(360deg);
+  }
+}
+
+    #login-container {
+      background-color: #74747547;
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    #username {
+      padding: 8px;
+      margin-bottom: 15px;
+    }
+    #password {
+      padding: 8px;
+      margin-bottom: 15px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    #error-msg {
+      color: red;
+    }
+    @media only screen and (max-width: 600px) {
+  body {
+    margin: 0%;
     
-<font id="txt"><b>....Registration Successful....</b></font><br><br>
-<a href="#" ><button id="link1">Join WhatsApp Group</button></a><br><br>
-<a href="https://docs.google.com/spreadsheets/d/1920khcboj5YWjb4EDx2XYc-8GrDBFQeLC1HXoJcIaR8/edit?usp=drivesdk" ><button id="link1">Get Data</button></a>
-  </div>
-</body>
+    height: 100vh;
+    background-color: black;
+  }
+         #xyz
+    {
+      width: auto;
+      height: auto;
+      padding: 20px;
+      margin-left: 30px;
+      margin-right: 15px;
+      background-position: centre;
+      border-radius: 30px;
+      background: #4A4856B0;
+    }
+   #wrapper{
+     background-image:url('IMG_20230720_102721.jpg') ;
+     animation: none;
+   }
+    }
+  </style>
 
-</html>
+    
+
+</head>
+<body>
+<div id="div1">
+<div id="wrapper">
+  <div id="login-container">
+        <form id="loginForm">
+    <h2><font color=white>Login</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" required>
+
+    <label for="password"><font color=white>Password:</label>
+    <input type="password" id="password" required>
+
+    <p id="error-msg" class="error"></p>
+
+
+            <button type="button" onclick="checkCredentials()">Login</button>
+            <p id="outputMessage"></p>
+    </form>
+  </div>
+</div>
+</div>
+
+    
+
+    <div id="customForm" class="hidden">
+        <!-- Your custom form content goes here -->
+       <div id="costume2"> 
+
+    <form id="xyz" name="submit-to-google-sheet">
+      <lable><font color=white>Product Name:</font></lable>
+      <br><input type="text" name="Product Name" required><br><br>
+     <lable><font color=white>Quantity:</lable><br>
+         <input type="text" name="qty." required><br><br>
+        <lable><font color=white>Unit Type:</lable><br>
+        <input type="radio" name="Unit Type" value="Kg"><lable><font color=white>Kg</lable>
+        <input type="radio" name="Unit Type" value="g"><lable><font color=white>g</lable>
+        <input type="radio" name="Unit Type" value="ml"><lable><font color=white>ml</lable>
+        <input type="radio" name="Unit Type" value="Pound"><lable><font color=white>Pound</lable>
+      <input type="radio" name="Unit Type" value="Liter"><lable><font color=white>Liter</lable>
+         <input type="radio" name="Unit Type" value="Pises"><lable><font color=white>Pises</lable>
+      <input type="radio" name="Unit Type" value="Meter"><lable><font color=white>Meter</lable>
+      <input type="radio" name="Unit Type" value="Person"><lable><font color=white>Person</lable>
+      <input type="radio" name="Unit Type" value="Pack"><lable><font color=white>Pack</lable><br><br>
+         <lable><font color=white>Price:</lable><br>
+         <input type="number" name="Price" required><br><br>
+<lable><font color=white>Buyer Name:</lable><br>
+         <input type="text" name="Buyer Name" required><br><br>
+         <lable><font color=white>Date:</lable><br>
+         <input  type="Date" name="Date" required><br><br>
+      
+         <lable><font color=white>Remark:</lable><br>
+         <input type="text" name="Remark" ><br><br>
+       
+
+         <center>
+           
+         <button>Submit</button></center><br><br>
+<span id="success"></span>
+    </form>
+<div id="button-container">
+  <center>
+          <a href="https://docs.google.com/spreadsheets/d/1920khcboj5YWjb4EDx2XYc-8GrDBFQeLC1HXoJcIaR8/edit?usp=drivesdk" class="transparent-button">Find data</a>
+          <button onclick="refreshPage()">Logout</button>
+          </center>
+      
+
+    <!-- Add more buttons as needed -->
+  </div>
+
+    </div>
+    </div>
+
+
+
+    <script>
+        function checkCredentials() {
+            var enteredUsername = document.getElementById("username").value;
+            var enteredPassword = document.getElementById("password").value;
+            var correctUsername = "S";
+            var correctPassword = "1234";
+
+            if (enteredUsername === correctUsername && enteredPassword === correctPassword) {
+                document.getElementById("outputMessage").innerText = "Hi";
+                document.getElementById("loginForm").style.display = "none";
+                document.getElementById("customForm").classList.remove("hidden");
+                var contentDiv = document.getElementById('div1');
+      div1.style.display = 'none';
+            } else {
+                document.getElementById("error-msg").innerText = "Incorrect username or password. Please try again.";
+            }
+        }
+    </script>
+<script>
+    document.querySelectorAll('.custom-button').forEach(function(button) {
+      button.addEventListener('click', function(event) {
+        event.preventDefault();
+        openFile(this.href);
+      });
+    });
+
+    function openFile(fileSrc) {
+      // Check if the file is an image or PDF
+      if (fileSrc.toLowerCase().endsWith(".pdf")) {
+        // Trigger PDF download
+        var a = document.createElement('a');
+        a.href = fileSrc;
+        a.download = fileSrc.split('/').pop();
+        a.click();
+      } else {
+        // Display image (you may add your image display logic here)
+        console.log('Image clicked');
+      }
+    }
+  </script>
+  <script>
+    document.querySelectorAll('.custom-button').forEach(function(button) {
+      button.addEventListener('click', function(event) {
+        event.preventDefault();
+        openFile(this.href);
+      });
+    });
+
+    function openFile(fileSrc) {
+      // Check if the file is an image or PDF
+      if (fileSrc.toLowerCase().endsWith(".pdf")) {
+        // Trigger PDF download
+        var a = document.createElement('a');
+        a.href = fileSrc;
+        a.download = fileSrc.split('/').pop();
+        a.click();
+      } else {
+        // Display image (you may add your image display logic here)
+        console.log('Image clicked');
+      }
+    }
+  </script>
+  <script>
+    document.querySelectorAll('.custom-button').forEach(function(button) {
+      button.addEventListener('click', function(event) {
+        event.preventDefault();
+        openFile(this.href);
+      });
+    });
+
+    function openFile(fileSrc) {
+      // Check if the file is an image or PDF
+      if (fileSrc.toLowerCase().endsWith(".pdf")) {
+        // Trigger PDF download
+        var a = document.createElement('a');
+        a.href = fileSrc;
+        a.download = fileSrc.split('/').pop();
+        a.click();
+      } else {
+        // Display image (you may add your image display logic here)
+        console.log('Image clicked');
+      }
+    }
+  </script>
+  <script>
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx6EL6jdLqR9CbgEXxqyVR3Lvgo58UrAu6OMgTY_FVrVBSWxmCRIQRStFegHZ2MrSTVSQ/exec'
+
+  const form = document.forms['submit-to-google-sheet']
+const success = document.getElementById('success')
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {success.innerHTML="Data Successfully Submitted";
+        setTimeout(function(){
+          success.innerHTML="";},5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+ <script>
+    function refreshPage() {
+      // Reload the page
+      location.reload();
+    }
+  </script>
+</body>
+  </html>
