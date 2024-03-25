@@ -259,11 +259,11 @@ button:hover{
         function checkCredentials() {
             var enteredUsername = document.getElementById("username").value;
             var enteredPassword = document.getElementById("password").value;
-            var correctUsername = "S";
-            var correctPassword = "1234";
+            var correctUsername1 = "S";
+            var correctPassword1 = "1234";
             var correctUsername = "Subhom";
             var correctPassword = "16102005";
-            if (enteredUsername === correctUsername && enteredPassword === correctPassword) {
+            if (enteredUsername === correctUsername && enteredPassword === correctPassword  || enteredUsername === correctUsername1 && enteredPassword === correctPassword1) {
                 document.getElementById("outputMessage").innerText = "Hi";
                 document.getElementById("loginForm").style.display = "none";
                 document.getElementById("customForm").classList.remove("hidden");
