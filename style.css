@@ -88,6 +88,7 @@ text-align: left;
   border-radius: 20px;
   text-align: center;
   color: red;
+  box-shadow: 5px 5px 10px 10px #42445A87;
 }
 #blank{
   color: transparent;
