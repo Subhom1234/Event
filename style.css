@@ -89,6 +89,7 @@ text-align: left;
   text-align: center;
   color: red;
   box-shadow: 5px 5px 10px 10px #42445A87;
+  font-size: 24px;
 }
 #blank{
   color: transparent;
@@ -111,7 +112,7 @@ text-align: left;
 }
 #btn4{
   font-size: 24px;
-  margin-left: 25%;
+  margin-left: 30%;
   height: 6vh;
   border-radius: 20px;
   border: none;
